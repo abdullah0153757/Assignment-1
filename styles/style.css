@@ -1,0 +1,75 @@
+/* font styeles */
+.fira-sans-normal{
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wght" 100;
+  }
+
+/* Nav styeles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 122px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+nav ul li{
+    list-style: none;
+    
+}
+/* header styles */
+
+
+/* shared style */
+.btn-primary{
+    color: #006A50;
+    background-color: #F5F5F5;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+.btn-first{
+    color: #F5F5F5;
+    background-color: #006A50;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 26px;
+    border-radius: 8px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 122px 61px 122px;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 76px 61px ;
+    border-radius: 24px;
+}
+.banner-content{
+    max-width: 475px;
+}
+
+.banner-greetings{
+    font-weight: medium;
+    font-size: 19px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 44px;
+}
+            <img class="banner-img" src="assets/hero.png" alt="">
+.banner-img{
+    width: 362px;
+}
